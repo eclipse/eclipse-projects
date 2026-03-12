@@ -2,12 +2,12 @@ site_name: Eclipse projects @ GitHub
 site_description: Eclipse projects @ GitHub
 strict: false
 
-site_url: https://netomi.github.io/eclipse-projects/
+site_url: https://eclipse.github.io/eclipse-projects/
 docs_dir: ./docs
 site_dir: ./_site
 
-repo_name: netomi/eclipse-projects
-repo_url: https://github.com/netomi/eclipse-projects/
+repo_name: eclipse/eclipse-projects
+repo_url: https://github.com/eclipse/eclipse-projects/
 
 theme:
   name: 'material'
