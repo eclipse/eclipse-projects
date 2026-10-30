@@ -11,6 +11,12 @@ repo_url: https://github.com/eclipse/eclipse-projects/
 
 theme:
   name: 'material'
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  font:
+    text: Montserrat
+  palette:
+    scheme: default
 
 nav: []
 
@@ -39,3 +45,5 @@ extra_css:
 
 extra:
   generator: false
+
+copyright: <a href="https://www.eclipse.org">Eclipse Foundation</a> &middot; <a href="https://www.eclipse.org/legal/privacy/">Privacy Policy</a> &middot; <a href="https://www.eclipse.org/legal/termsofuse/">Terms of Use</a> &middot; <a href="https://www.eclipse.org/legal/">Legal</a>

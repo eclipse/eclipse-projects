@@ -1,3 +1,41 @@
+:root,
+[data-md-color-scheme="default"] {
+  --eclipse-navy: #2c2255;
+  --eclipse-orange: #f7941e;
+  --md-primary-fg-color: var(--eclipse-navy);
+  --md-primary-fg-color--light: #473788;
+  --md-primary-fg-color--dark: #1e1739;
+  --md-accent-fg-color: var(--eclipse-orange);
+  --md-typeset-a-color: #473788;
+}
+
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: auto;
+}
+
+.md-footer-meta {
+  background-color: var(--eclipse-navy);
+}
+
+.md-footer-copyright a {
+  color: var(--eclipse-orange);
+}
+
+.md-typeset h1 {
+  color: var(--eclipse-navy);
+  font-weight: 600;
+}
+
 .md-typeset__table {
-   min-width: 100%;
+  min-width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--eclipse-navy);
+  color: #fff;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: #f5f5f8;
 }
