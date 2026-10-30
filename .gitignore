@@ -1,0 +1,4 @@
+.venv/
+_site/
+docs/projects.csv
+__pycache__/
