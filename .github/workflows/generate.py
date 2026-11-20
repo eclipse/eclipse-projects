@@ -30,7 +30,7 @@ def generate():
 
     OUTPUT = './docs/projects.csv'
 
-    with open(OUTPUT, "w") as out:
+    with open(OUTPUT, "w", encoding="utf-8") as out:
         out.write("| Project name | Eclipse Project | GitHub organization |\n")
         out.write("| :----------- | :-------------- | :------------------ |\n")
 
@@ -52,7 +52,7 @@ def generate():
 
 
 def escape(s: str) -> str:
-    return s.replace("|", "&#9;")
+    return s.replace("|", "&#124;")
 
 
 if __name__ == "__main__":
